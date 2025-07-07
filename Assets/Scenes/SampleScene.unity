@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1896698366}
+  target2: {fileID: 1487253928}
   followSpeed: 0.3
 --- !u!20 &519420031
 Camera:
@@ -342,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.99}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -549,7 +550,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cf37eacca49839944ba08798a3e72bb4, type: 2}
+  - {fileID: 2100000, guid: d531d23f846601a40a67ee900ca29100, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
